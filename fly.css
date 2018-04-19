@@ -1,0 +1,33 @@
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background: #e6e6e6;
+}
+
+tr:nth-child(odd) {
+    background: #cccccc;
+}
+
+td {
+    text-align: right;
+}
+
+td#pheno {
+    text-align: left;
+}
+
+td#total {
+    text-align: center;
+}
+
+th {
+    text-align: right;
+    background: white;
+}
+
+th#headpheno {
+    text-align: left;
+}

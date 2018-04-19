@@ -1,0 +1,40 @@
+{
+    "genes": {
+        "1": {
+            "CH": 2, 
+            "name": "tiny", 
+            "dom": false
+        }, 
+        "2": {
+            "CH": 1, 
+            "name": "shiny", 
+            "dom": true
+        }, 
+        "3": {
+            "CH": 2, 
+            "name": "cardinal", 
+            "dom": false
+        }, 
+        "4": {
+            "CH": 2, 
+            "name": "orange", 
+            "dom": false
+        }, 
+        "5": {
+            "CH": 2, 
+            "name": "Curly", 
+            "dom": true
+        }, 
+        "6": {
+            "CH": 3, 
+            "name": "Dicheate", 
+            "dom": true
+        }, 
+        "double_color": "white"
+    }, 
+    "linkage": {
+        "distance": 45.100000000000001, 
+        "g2": 3, 
+        "g1": 1
+    }
+}

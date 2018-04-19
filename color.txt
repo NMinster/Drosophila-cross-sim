@@ -1,0 +1,10 @@
+﻿apricot
+orange
+yellow
+crimson
+cardinal
+carnation
+brown
+purple
+maroon
+burgundy

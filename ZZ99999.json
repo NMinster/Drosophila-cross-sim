@@ -1,0 +1,40 @@
+{
+    "genes": {
+        "1": {
+            "CH": 4, 
+            "name": "naked", 
+            "dom": false
+        }, 
+        "2": {
+            "CH": 1, 
+            "name": "glassy", 
+            "dom": true
+        }, 
+        "3": {
+            "CH": 2, 
+            "name": "brown", 
+            "dom": false
+        }, 
+        "4": {
+            "CH": 4, 
+            "name": "crimson", 
+            "dom": false
+        }, 
+        "5": {
+            "CH": 2, 
+            "name": "Curly", 
+            "dom": true
+        }, 
+        "6": {
+            "CH": 3, 
+            "name": "Dicheate", 
+            "dom": true
+        }, 
+        "double_color": "lemon"
+    },
+    "linkage": {
+        "distance": 38.9, 
+        "g2": 4, 
+        "g1": 1
+    }
+}

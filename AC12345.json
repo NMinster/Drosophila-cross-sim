@@ -1,0 +1,80 @@
+{
+    "final_answer": {
+        "0": {
+            "CH": 1, 
+            "name": "G", 
+            "dom": true
+        }, 
+        "1": {
+            "CH": 2, 
+            "name": "c", 
+            "dom": false
+        }, 
+        "2": {
+            "CH": 2, 
+            "name": "b", 
+            "dom": false
+        }, 
+        "3": {
+            "CH": 3, 
+            "name": "T", 
+            "dom": true
+        }, 
+        "score": 30,
+        "distance": 28.1,
+        "info": "AC12345, Dean, Jimmy"
+    }, 
+    "genes": {
+        "1": {
+            "CH": 3, 
+            "name": "tiny", 
+            "dom": true
+        }, 
+        "2": {
+            "CH": 1, 
+            "name": "glassy", 
+            "dom": true
+        }, 
+        "3": {
+            "CH": 2, 
+            "name": "crimson", 
+            "dom": false
+        }, 
+        "4": {
+            "CH": 2, 
+            "name": "brown", 
+            "dom": false
+        }, 
+        "5": {
+            "CH": 2, 
+            "name": "Curly", 
+            "dom": true
+        }, 
+        "6": {
+            "CH": 3, 
+            "name": "Dicheate", 
+            "dom": true
+        }, 
+        "double_color": "white"
+    }, 
+    "raw_answer": {
+        "4recomb": null, 
+        "3recomb": null, 
+        "4mut2": null, 
+        "4mut1": null, 
+        "xrecomb": null, 
+        "submit_time": "Sat, 13 May 2017 15:08:57", 
+        "2recomb": "28", 
+        "3mut1": "T", 
+        "xmut2": null, 
+        "xmut1": "G", 
+        "2mut1": "c;b", 
+        "3mut2": null, 
+        "2mut2": null
+    }, 
+    "linkage": {
+        "distance": 28.100000000000001, 
+        "g2": 4, 
+        "g1": 3
+    }
+}

@@ -1,0 +1,96 @@
+# data format
+# for watson/crick, 1 = mutant, 0 = wt, -1 = CH not present
+# ID 0 = their unknown, 1-9 = stocks, 10+ = custom crosses
+# names for csv: last, first, score
+
+record raw input in the final answer
+scan input letter by letter
+only accept letters that are in their karyotype
+if the same letter is encountered again, it is added to the list of genes
+subtract 0.5 from the score every time a letter not in their karyotype is found
+str.isupper() and str.islower() to test for lower/upper case (for dom/rec testing)
+str.isalpha() and str.isdigit() to test for letter vs number, also useful for excluding anything except letters
+
+only accept karyotypes that have the correct number of characters (9)
+
+have caruso enter a special student ID or a special combination of inputs and have the program spit out a "print_answer" table
+    of all the students that have submitted thus far. The csv file is for inputting the majority of grades.
+
+ID regex
+ '[A-Z]\d\d\d\d\d'
+
+#checklist
+-write output functions (need HTML ref; css?)
+
+{
+"karyotype": {
+	"genes": {
+		1: {"name": "hairy", "CH": 1, "dom": True},
+		2: {"name": "carnation", "CH": 2, "dom": True},
+		3: {"name": "orange", "CH": 2, "dom": True},
+		4: {"name": "rough", "CH": 4, "dom": True,
+		'double_color': 'double mutant eye color not assigned'
+		}
+	
+	"linkage": {
+		"g1": 2, 
+		"g2": 3, 
+		"distance": 34.6
+		}
+	}
+"stocks": {
+	ID_Num: {
+		1: {"m": {"rosalind": 1, "franklin": 1}, "f": {"rosalind": 1, "franklin": 1}},
+		2: {"m": {"rosalind": 1, "franklin": 1}, "f": {"rosalind": 1, "franklin": 1}},
+		3: {"m": {"rosalind": 1, "franklin": 1}, "f": {"rosalind": 1, "franklin": 1}},
+		4: {"m": {"rosalind": 1, "franklin": 1}, "f": {"rosalind": 1, "franklin": 1}}
+	}
+"crosses": {
+	ID_Num:
+		{
+			1: {"m": {"rosalind": 1, "franklin": 1}, "f": {"rosalind": 1, "franklin": 1}},
+			2: {"m": {"rosalind": 1, "franklin": 1}, "f": {"rosalind": 1, "franklin": 1}},
+			3: {"m": {"rosalind": 1, "franklin": 1}, "f": {"rosalind": 1, "franklin": 1}},
+			4: {"m": {"rosalind": 1, "franklin": 1}, "f": {"rosalind": 1, "franklin": 1}},
+			'freq': 0.128
+		}
+"final_answer": { (basically a copy of karyotype)
+	"genes": {
+		1: {"name": "hairy", "CH": 1, "dom": True},
+		2: {"name": "carnation", "CH": 2, "dom": True},
+		3: {"name": "orange", "CH": 2, "dom": True},
+		4: {"name": "rough", "CH": 4, "dom": True},
+		}
+	
+	"linkage": {
+		"g1": 2, 
+		"g2": 3, 
+		"distance": 34.6
+		}
+	}
+}
+
+"gamete": {
+	
+
+Stocks:
+0	unknown
+1	F1 progeny
+2	reciprocal F1 progeny
+3	Cy/Pm D/Sb cross
+4	Bris Tex Eye
+5	Bris Eye
+6	Tex Eye
+7	Eye
+8	B Tex
+9	wt
+
+
+
+index.html variables
+person: student ID
+crosstype: P0, F11, F12, TC, Cy
+tcmale: male TC stock
+tcfemale: female TC stock
+Cymale: male Cy stock
+Cyfemale: female Cy stock
